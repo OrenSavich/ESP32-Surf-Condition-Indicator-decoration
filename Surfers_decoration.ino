@@ -45,12 +45,11 @@ const char* pass = "Your_Password";
 #define LED_PIN 26 //pin connected to led strip
 #define SERVO_PIN 23 //pin connected to servo
 
-String openWeatherMapApiKey = "02a4107666c7bd2e22a71683b0d5f91f"; //Open Weather Map Api Key
+String openWeatherMapApiKey = ""; //Add Open Weather Map Api Key
 String lat = "32.178698389979665"; //Herzelia 
 String lon = "34.83778824811556";
 
-//String stormglassApiKey = "bb6db1dc-2d52-11ef-899d-0242ac130004-bb6db272-2d52-11ef-899d-0242ac130004"; //Stormglass API key - turixc
- String stormglassApiKey = "af8fa4dc-2d7b-11ef-968a-0242ac130004-af8fa5fe-2d7b-11ef-968a-0242ac130004"; // Stormglass API key - orensav
+String stormglassApiKey = ""; //Add Stormglass API key 
 String stormglassLat = "58.7984"; // Herzelia
 String stormglassLon = "17.8081"; 
 

@@ -23,8 +23,8 @@
 
     Video link: https://www.youtube.com/watch?v=dNDxYnmZQeg
     Created By:
-    Oren Savich 207610668
-    Rotem Peled 206463572
+    Oren Savich 
+    Rotem Peled 
 */
 
 #include <WiFi.h>
@@ -35,14 +35,9 @@
 #include <string.h>
 #include <ESP32Servo.h>
 
-//const char* ssid = "Savich";
-//const char* password = "0509112343";
-
-//const char* ssid = "RUNI-Dorms";
-//const char* password = "";
-
-const char* ssid = "RUNI-Wireless";
-const char* password = "";
+// WiFi Credentials
+const char* ssid = "Your_SSID";
+const char* pass = "Your_Password";
 
 #define CONNECTION_TIMEOUT_SECS 20 //timeout to restart ESP32 when Wifi not found
 
